@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./forceWeather.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="forceWeather.js"></script>
+</head>
+
+
+<body id=theBody style="background: no-repeat center center fixed; background-repeat: no-repeat; height: 100%;">
+  <div class="container text-center">
+    <div>
+      <h3 class="cityState"></h3>
+      <h5 class="country"></h5>
+    </div>
+    <div>
+      <h2 class="icon"></h2>
+    </div>
+    <div>
+      <h4 class="info"></h4>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-2"></div>
+      <div class="col-sm-2">
+        <button type="button" class="fahr btn" style="color:black; background:white; text-align: center;">°F</button>
+      </div>
+      <div class="col-sm-2">
+        <button type="button" class="cels btn" style="color:black; background:white; text-align: center;">°C</button>
+      </div>
+      <div class="col-sm-2"></div>
+      <div class="col-sm-2"></div>
+    </div>
+    <br>
+    <div class="row tempWind text-center">
+      <div class="col-sm-4">
+        <h3 class="tempWord"><i class="fa fa-thermometer-half fa-lg" aria-hidden="true"></i></h3>
+        <h3 class="trueTemp"></h3>
+      </div>
+      <div class="col-sm-4">
+        <h3><i class="fa fa-tint fa-lg" aria-hidden="true"></i></h3>
+        <h3 class="precipProb"></h3>
+      </div>
+      <div class="col-sm-4">
+        <h3><i class="wi wi-strong-wind"></i></h3>
+        <h3 class="wind"></h3>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+
+
+.container {
+  margin: 10px;
+  border-radius: 20px;
+  max-width: 300px;
+  background: rgba(69, 67, 67, .65);
+  box-shadow: 0 7px 7px -7px #000;
+  text-align: center;
+  color: white;
+}
+
+.cityState {
+  padding-top: 15px;
+}
+
+.tempWind {
+  padding-bottom: 15px;
+}
+
+html {
+    height: 100%;
+}
+
+
+
+
